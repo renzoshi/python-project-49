@@ -5,3 +5,4 @@
 
 ascinema  brain_even https://asciinema.org/a/1IN3xLlbaAiZdVGojr2IFzOw5
 ascinema brain_calc  https://asciinema.org/a/Mm5Inkg5zRDMsqwFepOMFQvQT
+ascinema brain_gcd https://asciinema.org/a/Tnp37LJxxJeP3hi48NY22LAJE
