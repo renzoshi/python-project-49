@@ -3,6 +3,7 @@
 from brain_games.g_logic import opening
 from brain_games.games import br_clc
 
+
 def main():
     opening(br_clc)
 
