@@ -1,7 +1,7 @@
 from random import randint
 
 
-RULES = 'Answer "yes" if the number is even, otherwise answer "no".'
+RULES = 'Answer "yes" if given number is prime. Otherwise answer "no".'
 
 
 def prime_logic(rand_num):
