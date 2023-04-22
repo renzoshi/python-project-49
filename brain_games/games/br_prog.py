@@ -2,8 +2,8 @@ from random import randint
 
 
 RULES = 'What number is missing in the progression?'
-MIN_LIMIT = 1 
-START_LIMIT = 20 
+MIN_LIMIT = 1
+START_LIMIT = 20
 STEP_LIMIT = 13
 START_LENGHT = 5
 FINISH_LENGHT = 13
