@@ -1,29 +1,24 @@
 import prompt
 
 
-def welcome_user():
-    global name
+ROUND = 3
+
+
+def launch_game(open):
     print('Welcome to the Brain Games!')
     name = prompt.string('May I have your name?')
     print('Hello, ' + name + '!')
-
-
-def opening(open):
-    welcome_user()
     print(open.RULES)
-    i = 0
-
-    while i < 3:
-        ques, right_answer = open.pass_game()
-        print('Question: ' + str(ques))
+    for _ in range(ROUND):
+        question, right_answer = open.get_start_game()
+        print('Question: ' + str(question))
         answer = prompt.string('Your answer: ')
-        if answer == right_answer:
+        if answer == right_answer or answer == right_answer.capitalize():
             print('Correct!')
         else:
-            print(f"'{answer}' is wrong answer ;(.", end=" ")
-            print(f"Correct answer was '{right_answer}'.")
-            print("Let's try again, " + name + '!')
+            print(f"'{answer}' is wrong answer ;(. "
+                  f"Correct answer was '{right_answer}'."
+                  f"\nLet's try again, {name}!")
             return
-        i = i + 1
 
     print('Congratulations, ' + name + '!')

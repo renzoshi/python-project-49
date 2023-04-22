@@ -1,12 +1,12 @@
 #!/usr/bin/env/python
 
 
-from brain_games.g_logic import opening
+from brain_games.g_logic import launch_game
 from brain_games.games import br_prog
 
 
 def main():
-    opening(br_prog)
+    launch_game(br_prog)
 
 
 if __name__ == '__main__':
