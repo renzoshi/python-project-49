@@ -5,7 +5,7 @@
 
 INSTALL: 
 
-<q>python3 -m pip install --user git+https://github.com/renzoshi/python-project-49<q>
+<span style="font-size: 14px"><strong>python3 -m pip install --user git+https://github.com/renzoshi/python-project-49</strong></span><br>
 
 PLAY GAME: 
 
