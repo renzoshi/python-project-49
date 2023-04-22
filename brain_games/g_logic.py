@@ -8,7 +8,7 @@ def launch_game(games):
     print('Welcome to the Brain Games!')
     name = prompt.string('May I have your name?')
     print('Hello, ' + name + '!')
-    print(open.RULES)
+    print(games.RULES)
     for _ in range(ROUND):
         question, right_answer = games.get_start_game()
         print('Question: ' + str(question))
