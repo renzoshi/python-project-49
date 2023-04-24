@@ -1,11 +1,11 @@
 #!/usr/bin/env/python
 
-from brain_games.g_logic import launch_game
-from brain_games.games import br_clc
+from brain_games.game_logic import launch_game
+from brain_games.games import game_calc
 
 
 def main():
-    launch_game(br_clc)
+    launch_game(game_calc)
 
 
 if __name__ == '__main__':

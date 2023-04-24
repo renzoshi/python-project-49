@@ -7,13 +7,16 @@ FINISH_LIMIT = 100
 
 def is_even(question):
     if question % 2 == 0:
-        return 'yes'
+        return True
     else:
-        return 'no'
+        return False
 
 
 def get_start_game():
     rand_num = randint(START_LIMIT, FINISH_LIMIT)
     question = rand_num
-    right_answer = str(is_even(question))
+    if is_even(question):
+        right_answer = 'yes'
+    else:
+        right_answer = 'no'
     return question, right_answer
