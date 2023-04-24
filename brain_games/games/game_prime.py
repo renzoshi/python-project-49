@@ -21,6 +21,6 @@ def get_start_game():
     question = rand_num
     if is_prime(rand_num):
         right_answer = 'yes'
-    else: 
+    else:
         right_answer = 'no'
     return question, right_answer
